@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <title>ComputerAlmaty</title>
+</head>
+<body id="body">
+        
+    <div class="block">
+        <div id="block_label"></div>
+    </div>
+    
+    <div class="main" id="main">
+        <div class="product_group" id="product_group">
+            <div class="product">
+                <div class="product_photo">
+                    <img class="product_img photo_white" id="product_photo" src="img/windows/windowss11_white.jpg">
+                </div>
+                <div class="product_block">
+                    <div class="product_info">
+                        <div class="product_title">
+                            Windows 11
+                        </div>
+                        <div class="product_description" id="product_description">
+                            <div class="product_description_text">Самая последняя версия
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_button">
+                        <div class="product_trash" onclick="trash.apply(this)">
+                            КОРЗИНУ
+                        </div>
+                        <div class="product_favorites" onclick="scale.apply(this)">
+                            <img class="product_heart0" src="img/ico/heart0.png">
+                            <img class="product_heart1" src="img/ico/heart1.png" onclick="favorites.apply(this)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
